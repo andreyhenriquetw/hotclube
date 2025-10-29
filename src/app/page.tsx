@@ -1,8 +1,9 @@
+"use client"
 import Image from "next/image"
 import Header from "./_components/header"
-import { Card, CardContent } from "./_components/ui/card"
-import { Avatar } from "./_components/ui/avatar"
-import { AlarmClockIcon, BadgeCheckIcon } from "lucide-react"
+import Modelo from "./_components/modelo"
+import Carroceloferta from "./_components/carroceloferta"
+import Modelo2 from "./_components/modelo2"
 
 const Home = () => {
   return (
@@ -11,7 +12,6 @@ const Home = () => {
       <Header />
 
       {/* DIV BANNER 1 */}
-
       <div className="relative mt-1 h-[600px] w-full overflow-hidden rounded-t-2xl">
         <Image
           alt="bannerhot"
@@ -21,8 +21,7 @@ const Home = () => {
         />
       </div>
 
-      {/* RESTO DO CONTEUDO - Banners */}
-
+      {/* RESTO DO CONTEÚDO - Banners */}
       <div className="min-h-screen bg-black p-4">
         <div className="relative mx-auto h-[150px] w-[300px] overflow-hidden rounded-t-2xl">
           <Image
@@ -51,44 +50,29 @@ const Home = () => {
           />
         </div>
 
-        {/* Conteúdos Modelos */}
+        {/* DIV DESCRIÇÃO*/}
+        <h2 className="mt-6 text-clip font-bold uppercase text-gray-400">
+          Destaque do mês
+        </h2>
 
-        <Card className="mt-6 h-[400px] w-full">
-          <CardContent className="flex justify-between">
-            {/* DIV DA ESQUERDA */}
-            <div className="flex flex-col gap-2 py-5">
-              <div className="flex items-center gap-2">
-                <Avatar className="-ml-2 h-10 w-10">
-                  <Image
-                    alt="perfil1"
-                    src="/perfil1.jpg"
-                    fill
-                    className="object-cover"
-                  />
-                </Avatar>
+        {/*  CARD PERFIL MODELO */}
+        <div>
+          <Modelo />
+        </div>
 
-                {/* Nome e título em coluna */}
-                <div className="flex flex-col leading-tight">
-                  {/* Nome + selo na mesma linha */}
-                  <div className="flex items-center gap-1">
-                    <p className="text-[13px] font-thin">Daniela Lima</p>
-                    <BadgeCheckIcon size={14} className="text-blue-500" />
-                  </div>
+        {/* DIV DESCRIÇÃO*/}
+        <h2 className="mt-6 text-clip font-bold uppercase text-gray-400">
+          Chamada de vídeo
+        </h2>
 
-                  <h1 className="text-nowrap text-[12px] font-extralight text-gray-400">
-                    @danielap
-                  </h1>
-                </div>
-              </div>
-            </div>
+        <div className="mt-4">
+          <Carroceloferta />
+        </div>
 
-            {/* DIV DA DIREITA */}
-            <div className="flex items-center justify-center gap-1">
-              <AlarmClockIcon size={14} className="text-gray-300" />
-              <p className="text-xs text-gray-400">20:48</p>
-            </div>
-          </CardContent>
-        </Card>
+        {/*  CARD PERFIL MODELO */}
+        <div className="mt-6">
+          <Modelo2 />
+        </div>
       </div>
     </div>
   )
