@@ -13,7 +13,7 @@ import { useRef } from "react"
 import { Button } from "./ui/button"
 import { AlarmClockIcon, BadgeCheckIcon } from "lucide-react"
 
-const Modelo2 = () => {
+const Modelo3 = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const swiperRef = useRef<any>(null)
 
@@ -26,7 +26,7 @@ const Modelo2 = () => {
             <Avatar className="-ml-2 h-10 w-10">
               <Image
                 alt="perfildani"
-                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png"
                 fill
                 className="object-cover"
               />
@@ -35,11 +35,11 @@ const Modelo2 = () => {
             {/* Nome e título em coluna */}
             <div className="flex flex-col leading-tight">
               <div className="flex items-center gap-1">
-                <p className="text-sm font-thin">Bia Vaga</p>
+                <p className="text-sm font-thin">Andreya Almeida</p>
                 <BadgeCheckIcon size={16} className="text-blue-500" />
               </div>
               <h1 className="text-nowrap text-[13px] font-extralight text-gray-400">
-                @biavaga
+                @andreyahot
               </h1>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Modelo2 = () => {
         {/* DIV DA DIREITA */}
         <div className="flex items-center justify-center gap-1">
           <AlarmClockIcon size={14} className="text-gray-300" />
-          <p className="text-xs text-gray-400">14:20</p>
+          <p className="text-xs text-gray-400">23:29</p>
         </div>
       </CardContent>
 
@@ -70,7 +70,7 @@ const Modelo2 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfildani2"
-                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani2.jpeg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png"
                 fill
                 className="object-cover object-top"
               />
@@ -81,7 +81,7 @@ const Modelo2 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perdildani3"
-                src="https://hotclube.s3.sa-east-1.amazonaws.com/perdildani3.PNG"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png"
                 fill
                 className="object-cover object-top"
               />
@@ -92,7 +92,7 @@ const Modelo2 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil4"
-                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/perdildani3.PNG"
                 fill
                 className="object-cover object-top"
               />
@@ -155,4 +155,4 @@ const Modelo2 = () => {
   )
 }
 
-export default Modelo2
+export default Modelo3

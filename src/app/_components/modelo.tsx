@@ -26,7 +26,7 @@ const Modelo = () => {
             <Avatar className="-ml-2 h-10 w-10">
               <Image
                 alt="perfil1"
-                src="/perfil1.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfil1.jpg"
                 fill
                 className="object-cover"
               />
@@ -70,7 +70,7 @@ const Modelo = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil1"
-                src="/perfil1.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfil1.jpg"
                 fill
                 className="object-cover object-top"
               />
@@ -81,7 +81,7 @@ const Modelo = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil2"
-                src="/perfil2.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfil2.jpg"
                 fill
                 className="object-cover object-top"
               />
@@ -92,7 +92,7 @@ const Modelo = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil3"
-                src="/perfil3.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfil3.jpg"
                 fill
                 className="object-cover object-top"
               />
