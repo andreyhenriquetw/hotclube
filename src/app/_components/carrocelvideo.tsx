@@ -6,22 +6,22 @@ import { Button } from "./ui/button"
 const Carrocelvideo = () => {
   const itens = [
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/video22.mp4",
+      video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo22.mp4",
       usuario: "Rebeca Santos",
       nome: "Chamada de vídeo",
     },
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/video1.mp4",
+      video: "https://hotclube.s3.sa-east-1.amazonaws.com/video11.mp4",
       usuario: "Ana Clara",
       nome: "Chamada de vídeo",
     },
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/video33.mp4",
+      video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo33.mp4",
       usuario: "Lara Silva",
       nome: "Chamada de vídeo",
     },
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/video44.mp4",
+      video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo44.mp4",
       usuario: "Maria Eduarda",
       nome: "Chamada de vídeo",
     },
