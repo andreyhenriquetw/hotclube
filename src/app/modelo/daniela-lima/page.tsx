@@ -114,8 +114,8 @@ const DanielaLima = () => {
 
               {/* WHATS */}
               <p className="mt-2 flex items-center justify-center gap-2 text-[14px] text-gray-300">
-                <span className="flex h-5 w-5 items-center justify-center rounded-full bg-green-500">
-                  <FaWhatsapp size={11} color="white" />
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-green-500">
+                  <FaWhatsapp size={12} color="white" />
                 </span>
                 {item.nome}
               </p>
@@ -124,7 +124,7 @@ const DanielaLima = () => {
               <Link href={item.link}>
                 <Button
                   variant="secondary"
-                  className="mt-4 w-full bg-black/40 p-1 transition hover:bg-black/60"
+                  className="mt-4 w-full bg-green-500"
                 >
                   INICIAR CHAMADA DE VÍDEO
                 </Button>
