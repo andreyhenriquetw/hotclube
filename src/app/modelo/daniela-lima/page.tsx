@@ -122,7 +122,10 @@ const DanielaLima = () => {
 
               {/* BOTÃO */}
               <Link href={item.link}>
-                <Button variant="secondary" className="mt-4 w-full">
+                <Button
+                  variant="secondary"
+                  className="mt-4 w-full bg-black/40 p-1 transition hover:bg-black/60"
+                >
                   INICIAR CHAMADA DE VÍDEO
                 </Button>
               </Link>
