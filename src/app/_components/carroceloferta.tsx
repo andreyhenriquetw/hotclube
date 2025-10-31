@@ -3,6 +3,7 @@ import { Card, CardContent } from "./ui/card"
 import Image from "next/image"
 import { FaWhatsapp } from "react-icons/fa"
 import { Button } from "./ui/button"
+import Link from "next/link"
 
 const Carroceloferta = () => {
   const itens = [
@@ -10,21 +11,25 @@ const Carroceloferta = () => {
       img: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani2.jpeg",
       usuario: "Daniela Lima",
       nome: "5 minutos 30,00",
+      link: "/modelo/daniela-lima",
     },
     {
       img: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png",
       usuario: "Amanda Ribeiro",
       nome: "7 minutos 35,00",
+      link: "/modelo/daniela-lima",
     },
     {
       img: "https://hotclube.s3.sa-east-1.amazonaws.com/perfil1.jpg",
       usuario: "Luiza Sonza",
       nome: "20 minutos 70,00",
+      link: "/modelo/daniela-lima",
     },
     {
       img: "https://hotclube.s3.sa-east-1.amazonaws.com/perfil3.jpg",
       usuario: "Beatriz Henrique",
       nome: "10 minutos 50,00",
+      link: "/modelo/daniela-lima",
     },
   ]
 
@@ -59,9 +64,11 @@ const Carroceloferta = () => {
                 </span>
                 {item.nome}
               </p>
-              <Button variant="secondary" className="mt-3 w-full">
-                Reservar
-              </Button>
+              <Link href={item.link}>
+                <Button variant="secondary" className="mt-3 w-full">
+                  Reservar
+                </Button>
+              </Link>
             </CardContent>
           </Card>
         ))}

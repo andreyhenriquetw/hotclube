@@ -12,6 +12,7 @@ import "swiper/css/pagination"
 import { useRef } from "react"
 import { Button } from "./ui/button"
 import { AlarmClockIcon, BadgeCheckIcon } from "lucide-react"
+import Link from "next/link"
 
 const Modelo = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -144,12 +145,14 @@ const Modelo = () => {
       </div>
 
       <div className="mt-5 flex justify-center">
-        <Button
-          variant="outline"
-          className="flex items-center gap-2 border-gray-700 bg-black/40 text-gray-300 hover:bg-black/60 hover:text-white"
-        >
-          VER CONTEÚDOS
-        </Button>
+        <Link href="/modelo/daniela-lima">
+          <Button
+            variant="outline"
+            className="flex items-center gap-2 border-gray-700 bg-black/40 text-white"
+          >
+            VER CONTEÚDOS
+          </Button>
+        </Link>
       </div>
     </Card>
   )

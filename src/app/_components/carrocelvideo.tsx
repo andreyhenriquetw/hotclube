@@ -2,6 +2,7 @@
 import { Card, CardContent } from "./ui/card"
 import { FaWhatsapp } from "react-icons/fa"
 import { Button } from "./ui/button"
+import Link from "next/link"
 
 const Carrocelvideo = () => {
   const itens = [
@@ -9,21 +10,25 @@ const Carrocelvideo = () => {
       video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo22.mp4",
       usuario: "Rebeca Santos",
       nome: "Chamada de vídeo",
+      link: "/modelo/rebeca-santos",
     },
     {
       video: "https://hotclube.s3.sa-east-1.amazonaws.com/video11.mp4",
       usuario: "Ana Clara",
       nome: "Chamada de vídeo",
+      link: "/modelos/ana-clara",
     },
     {
       video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo33.mp4",
       usuario: "Lara Silva",
       nome: "Chamada de vídeo",
+      link: "/modelos/lara-silva",
     },
     {
       video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo44.mp4",
       usuario: "Maria Eduarda",
       nome: "Chamada de vídeo",
+      link: "/modelos/maria-eduarda",
     },
   ]
 
@@ -61,9 +66,12 @@ const Carrocelvideo = () => {
                 {item.nome}
               </p>
 
-              <Button variant="secondary" className="mt-3 w-full">
-                Reservar
-              </Button>
+              {/* BOTÃO */}
+              <Link href={item.link}>
+                <Button variant="secondary" className="mt-3 w-full">
+                  Reservar
+                </Button>
+              </Link>
             </CardContent>
           </Card>
         ))}
