@@ -6,6 +6,7 @@ import Carroceloferta from "./_components/carroceloferta"
 import Modelo2 from "./_components/modelo2"
 import Modelo3 from "./_components/modelo3"
 import Carrocelvideo from "./_components/carrocelvideo"
+import { Card, CardContent } from "./_components/ui/card"
 
 const Home = () => {
   return (
@@ -29,15 +30,6 @@ const Home = () => {
           <Image
             alt="bannerhot"
             src="https://hotclube.s3.sa-east-1.amazonaws.com/bannerhot2.png"
-            fill
-            className="object-cover"
-          />
-        </div>
-
-        <div className="relative mx-auto mt-2 h-[150px] w-[300px] overflow-hidden rounded-t-2xl">
-          <Image
-            alt="bannerhot"
-            src="https://hotclube.s3.sa-east-1.amazonaws.com/bannerhot3.png"
             fill
             className="object-cover"
           />
@@ -92,6 +84,17 @@ const Home = () => {
           <Carroceloferta />
         </div>
       </div>
+
+      {/* FOOTER */}
+      <footer>
+        <Card>
+          <CardContent className="px-5 py-6">
+            <p className="text-center text-sm text-gray-400">
+              © 2023 Copyright <span className="font-bold">HOT Clube</span>
+            </p>
+          </CardContent>
+        </Card>
+      </footer>
     </div>
   )
 }

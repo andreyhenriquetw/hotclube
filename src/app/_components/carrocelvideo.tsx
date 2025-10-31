@@ -35,7 +35,7 @@ const Carrocelvideo = () => {
             key={index}
             className="w-[259px] flex-shrink-0 rounded-xl shadow-[0_0_20px_-8px_rgba(0,0,0,0.5)] backdrop-blur-sm transition-transform duration-150 hover:scale-[1.00]"
           >
-            <CardContent className="p-2">
+            <CardContent className="p-2 pb-3">
               {/* VÍDEO */}
               <div className="relative h-[179px] w-full overflow-hidden rounded-lg">
                 <video
