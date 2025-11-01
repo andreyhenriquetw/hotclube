@@ -6,11 +6,12 @@ import Link from "next/link"
 import Image from "next/image"
 import { FaWhatsapp } from "react-icons/fa"
 
-const DanielaLima = () => {
+const StephaneGiraldo = () => {
   const itens = [
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/callme.mp4",
-      usuario: "Rebeca Santos",
+      video:
+        "https://gallery.dditscdn.com/public/18/ef96901c541c566571c188875cffb491.mp4",
+      usuario: "Stephane Giraldo",
       nome: "Chamada de vídeo e conteúdos",
       link: "/modelo/rebeca-santos",
     },
@@ -20,51 +21,51 @@ const DanielaLima = () => {
   const midia = [
     {
       tipo: "video",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo22.mp4",
+      src: "https://gallery.dditscdn.com/public/11/74929a1719fc7a133be218d7ab925dac.mp4",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani2.jpeg",
+      src: "https://gallery.dditscdn.com/public/19/e92d0ebcae730797f9bb865456f8afb2.jpg",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png",
+      src: "https://gallery.dditscdn.com/public/11/0f8b3e14f00c3b685b0fa19043f99a31.jpg",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfil1.jpg",
+      src: "https://gallery.dditscdn.com/public/18/3a25ddc565e5fd45abc0b545c80cef55.jpg",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfil3.jpg",
+      src: "https://gallery.dditscdn.com/public/14/e64f14b74d2514c3ccd3f1fb30a9f04e.jpg",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani2.jpeg",
+      src: "https://gallery.dditscdn.com/public/17/9ae60f572660c254b5b0b3d0045a3fc0.jpg",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png",
+      src: "https://gallery.dditscdn.com/public/11/cb74e8f4888644590c1b940b3bc2f67b.jpg",
     },
     {
       tipo: "video",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo33.mp4",
+      src: "https://gallery.dditscdn.com/public/11/9a3ec9e0007a1ada77998c6529a4e76c.mp4",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfil3.jpg",
+      src: "https://gallery.dditscdn.com/public/13/1b7d8d11905408408005bc8a4cd0afdf.jpg",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani2.jpeg",
+      src: "https://gallery.dditscdn.com/public/1d/94b488ac811e17840e93915a53e1e94f.jpg",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani2.jpeg",
+      src: "https://gallery.dditscdn.com/public/18/1a2473b7c5c89b6a5d6cd84d72cea646.jpg",
     },
     {
       tipo: "foto",
-      src: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png",
+      src: "https://gallery.dditscdn.com/public/19/759e48260c8dcba1b7003b875e37585c.jpg",
     },
   ]
 
@@ -167,7 +168,9 @@ const DanielaLima = () => {
       {/* === GALERIA COM FOTO + VÍDEO === */}
       <Card className="mb-10 mt-5 w-[360px] rounded-xl bg-zinc-900/70 p-4 text-center shadow-lg md:w-[430px] lg:w-[480px]">
         <CardContent>
-          <h2 className="mb-4 text-lg font-semibold text-white">Galeria</h2>
+          <h2 className="mb-4 text-lg font-semibold text-white">
+            Algumas Amostra
+          </h2>
 
           <div className="grid grid-cols-2 gap-3">
             {midia.map((item, index) =>
@@ -206,4 +209,4 @@ const DanielaLima = () => {
   )
 }
 
-export default DanielaLima
+export default StephaneGiraldo

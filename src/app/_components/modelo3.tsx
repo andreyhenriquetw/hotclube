@@ -27,7 +27,7 @@ const Modelo3 = () => {
             <Avatar className="-ml-2 h-10 w-10">
               <Image
                 alt="perfildani"
-                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png"
+                src="https://gallery.dditscdn.com/public/17/fff68250cb099369fbfe0e996956d0d5.jpg"
                 fill
                 className="object-cover"
               />
@@ -36,11 +36,11 @@ const Modelo3 = () => {
             {/* Nome e título em coluna */}
             <div className="flex flex-col leading-tight">
               <div className="flex items-center gap-1">
-                <p className="text-sm font-thin">Andreya Almeida</p>
+                <p className="text-sm font-thin">Valeria Rouge</p>
                 <BadgeCheckIcon size={16} className="text-blue-500" />
               </div>
               <h1 className="text-nowrap text-[13px] font-extralight text-gray-400">
-                @andreyahot
+                @valaryofc
               </h1>
             </div>
           </div>
@@ -71,7 +71,7 @@ const Modelo3 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfildani2"
-                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png"
+                src="https://gallery.dditscdn.com/public/1f/cf46c6a9347ab778c91374ba3215e16d.jpg"
                 fill
                 className="object-cover object-top"
               />
@@ -82,7 +82,7 @@ const Modelo3 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perdildani3"
-                src="https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png"
+                src="https://gallery.dditscdn.com/public/1e/3acfb96563c7a00ee89d36d9cb41e74f.jpg"
                 fill
                 className="object-cover object-top"
               />
@@ -93,7 +93,7 @@ const Modelo3 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil4"
-                src="https://hotclube.s3.sa-east-1.amazonaws.com/perdildani3.PNG"
+                src="https://gallery.dditscdn.com/public/1b/dfc7f231b0a5c4ed7b9a6ab4c58f28a8.jpg"
                 fill
                 className="object-cover object-top"
               />
@@ -145,7 +145,7 @@ const Modelo3 = () => {
       </div>
 
       <div className="mt-5 flex justify-center">
-        <Link href="/modelo/andreya-almeida">
+        <Link href="/modelo/valary-rouge">
           <Button
             variant="outline"
             className="flex items-center gap-2 border-gray-700 bg-black/40 text-white"
