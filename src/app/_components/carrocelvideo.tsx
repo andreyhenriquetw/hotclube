@@ -54,14 +54,14 @@ const Carrocelvideo = () => {
               </div>
 
               {/* NOME DO USUÁRIO */}
-              <p className="mt-2 text-center text-[13px] font-medium text-gray-200">
+              <p className="mt-2 text-center text-[14px] font-medium text-gray-200">
                 {item.usuario}
               </p>
 
               {/* TEMPO + VALOR + WHATS APP */}
-              <p className="mt-1 flex items-center justify-center gap-2 font-sans text-[13px] text-gray-400">
+              <p className="mt-1 flex items-center justify-center gap-2 font-sans text-[14px] text-gray-400">
                 <span className="flex h-5 w-5 items-center justify-center rounded-full bg-green-500 shadow-lg shadow-green-500/30">
-                  <FaWhatsapp size={11} color="white" />
+                  <FaWhatsapp size={13} color="white" />
                 </span>
                 {item.nome}
               </p>

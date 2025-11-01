@@ -107,15 +107,15 @@ const DanielaLima = () => {
               </div>
 
               {/* NOME */}
-              <p className="mt-4 flex items-center justify-center gap-1 text-[15px] font-medium text-gray-200">
+              <p className="mt-4 flex items-center justify-center gap-1 text-[16px] font-medium text-gray-200">
                 {item.usuario}
-                <BadgeCheckIcon size={16} className="text-blue-500" />
+                <BadgeCheckIcon size={17} className="text-blue-500" />
               </p>
 
               {/* WHATS */}
-              <p className="mt-2 flex items-center justify-center gap-2 text-[14px] text-gray-300">
+              <p className="mt-2 flex items-center justify-center gap-2 text-[15px] text-gray-300">
                 <span className="flex h-6 w-6 items-center justify-center rounded-full bg-green-500">
-                  <FaWhatsapp size={12} color="white" />
+                  <FaWhatsapp size={14} color="white" />
                 </span>
                 {item.nome}
               </p>
@@ -141,22 +141,22 @@ const DanielaLima = () => {
             Planos de Assinatura
           </h2>
 
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-4">
             <Button
               variant="secondary"
-              className="w-full bg-pink-600 hover:bg-pink-700"
+              className="w-full bg-pink-600 text-[15px] hover:bg-pink-700"
             >
               💖 Assinatura Mensal – R$19,90
             </Button>
             <Button
               variant="secondary"
-              className="w-full bg-purple-600 hover:bg-purple-700"
+              className="w-full bg-purple-600 text-[15px] hover:bg-purple-700"
             >
               💎 Assinatura Trimestral – R$49,90
             </Button>
             <Button
               variant="secondary"
-              className="w-full bg-indigo-600 hover:bg-indigo-700"
+              className="w-full bg-indigo-600 text-[15px] hover:bg-indigo-700"
             >
               🔥 Assinatura Anual – R$159,90
             </Button>
@@ -167,9 +167,7 @@ const DanielaLima = () => {
       {/* === GALERIA COM FOTO + VÍDEO === */}
       <Card className="mb-10 mt-5 w-[360px] rounded-xl bg-zinc-900/70 p-4 text-center shadow-lg md:w-[430px] lg:w-[480px]">
         <CardContent>
-          <h2 className="mb-4 text-lg font-semibold text-white">
-            Galeria da Modelo
-          </h2>
+          <h2 className="mb-4 text-lg font-semibold text-white">Galeria</h2>
 
           <div className="grid grid-cols-2 gap-3">
             {midia.map((item, index) =>
