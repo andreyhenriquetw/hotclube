@@ -6,12 +6,12 @@ import Link from "next/link"
 import Image from "next/image"
 import { FaWhatsapp } from "react-icons/fa"
 
-const StephaneGiraldo = () => {
+const SuzaneEliza = () => {
   const itens = [
     {
       video:
-        "https://gallery.dditscdn.com/public/18/ef96901c541c566571c188875cffb491.mp4",
-      usuario: "Stephane Giraldo",
+        "https://gallery.dditscdn.com/public/15/3101c7d6e04e9c5cdea32105c83e61ee.mp4",
+      usuario: "Suzane Elizabeth",
       nome: "Chamada de vídeo e conteúdos",
       link: "/modelo/rebeca-santos",
     },
@@ -21,51 +21,48 @@ const StephaneGiraldo = () => {
   const midia = [
     {
       tipo: "video",
-      src: "https://gallery.dditscdn.com/public/11/74929a1719fc7a133be218d7ab925dac.mp4",
+      src: "https://gallery.dditscdn.com/public/17/1cab89dce6a003012eb67b8221bb9d67.mp4",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/19/e92d0ebcae730797f9bb865456f8afb2.jpg",
+      src: "https://gallery.dditscdn.com/public/1b/436bc4987ee948892ff6ecc00e942b64.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/11/0f8b3e14f00c3b685b0fa19043f99a31.jpg",
+      src: "https://gallery.dditscdn.com/public/10/1b71ad99e863bae8b7b8c4bb2ea084b9.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/18/3a25ddc565e5fd45abc0b545c80cef55.jpg",
+      src: "https://gallery.dditscdn.com/public/1f/4d52e544a41a4ab701b8f8515ccfafd6.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/14/e64f14b74d2514c3ccd3f1fb30a9f04e.jpg",
+      src: "https://gallery.dditscdn.com/public/17/86f4ee00e68dacaec6c3823c508d1804.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/17/9ae60f572660c254b5b0b3d0045a3fc0.jpg",
+      src: "https://gallery.dditscdn.com/public/1c/ff7523c1b87f72350ac8306d71412e18.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/11/cb74e8f4888644590c1b940b3bc2f67b.jpg",
+      src: "https://gallery.dditscdn.com/public/1c/7db5dd996a4860d6b9afa964a5491606.jpg",
     },
+
     {
-      tipo: "video",
-      src: "https://gallery.dditscdn.com/public/11/9a3ec9e0007a1ada77998c6529a4e76c.mp4",
+      tipo: "foto",
+      src: "https://gallery.dditscdn.com/public/11/d9345fe435a44a39ba0943ea1b5d7b99.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/13/1b7d8d11905408408005bc8a4cd0afdf.jpg",
+      src: "https://gallery.dditscdn.com/public/18/b234e90b63bad7335bb5eeef1f9db572.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/1d/94b488ac811e17840e93915a53e1e94f.jpg",
+      src: "https://gallery.dditscdn.com/public/1c/d2b076129b948921b46c7fd55234ebf6.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/18/1a2473b7c5c89b6a5d6cd84d72cea646.jpg",
-    },
-    {
-      tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/19/759e48260c8dcba1b7003b875e37585c.jpg",
+      src: "https://gallery.dditscdn.com/public/1b/fba075ce1f2b8612da1403bc9697d926.jpg",
     },
   ]
 
@@ -169,7 +166,7 @@ const StephaneGiraldo = () => {
       <Card className="mb-10 mt-5 w-[360px] rounded-xl bg-zinc-900/70 p-4 text-center shadow-lg md:w-[430px] lg:w-[480px]">
         <CardContent>
           <h2 className="mb-4 text-lg font-semibold text-white">
-            Algumas Amostra
+            Amostra Grátis
           </h2>
 
           <div className="grid grid-cols-2 gap-3">
@@ -209,4 +206,4 @@ const StephaneGiraldo = () => {
   )
 }
 
-export default StephaneGiraldo
+export default SuzaneEliza

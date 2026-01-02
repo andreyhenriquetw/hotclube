@@ -36,7 +36,7 @@ const Modelo2 = () => {
             {/* Nome e título em coluna */}
             <div className="flex flex-col leading-tight">
               <div className="flex items-center gap-1">
-                <p className="text-sm font-thin">Suzane Blacke</p>
+                <p className="text-sm font-thin">Suzane Elisabeth</p>
                 <BadgeCheckIcon size={16} className="text-blue-500" />
               </div>
               <h1 className="text-nowrap text-[13px] font-extralight text-gray-400">
@@ -71,7 +71,7 @@ const Modelo2 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfildani2"
-                src="https://gallery.dditscdn.com/public/1a/130d30d6e51304cb3daff021e1a0cec7.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/fasdadfad+(3).png"
                 fill
                 className="object-cover object-top"
               />
@@ -82,7 +82,7 @@ const Modelo2 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perdildani3"
-                src="https://gallery.dditscdn.com/public/16/23f1cdc793fcbe35a1ae700d8e8d7588.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/fasdadfad+(4).png"
                 fill
                 className="object-cover object-top"
               />
@@ -93,7 +93,7 @@ const Modelo2 = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil4"
-                src="https://gallery.dditscdn.com/public/15/2aabedb4043e49c26645ab4ec57beee9.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/fasdadfad+(5).png"
                 fill
                 className="object-cover object-top"
               />
@@ -145,7 +145,7 @@ const Modelo2 = () => {
       </div>
 
       <div className="mt-5 flex justify-center">
-        <Link href="/modelo/suzane-black">
+        <Link href="/modelo/suzane-eliza">
           <Button
             variant="outline"
             className="flex items-center gap-2 border-gray-700 bg-black/40 text-white"

@@ -8,10 +8,10 @@ import Link from "next/link"
 const Carroceloferta = () => {
   const itens = [
     {
-      img: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani2.jpeg",
-      usuario: "Daniela Lima",
+      img: "https://hotclube.s3.sa-east-1.amazonaws.com/fasdadfad+(9).png",
+      usuario: "Raissa Soares",
       nome: "5 minutos 30,00",
-      link: "/modelo/daniela-lima",
+      link: "/modelo/raissa-soares",
     },
     {
       img: "https://hotclube.s3.sa-east-1.amazonaws.com/perfildani4.png",

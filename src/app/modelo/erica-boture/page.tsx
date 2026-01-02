@@ -6,68 +6,59 @@ import Link from "next/link"
 import Image from "next/image"
 import { FaWhatsapp } from "react-icons/fa"
 
-const ValaryRouge = () => {
+const CassandraOliver = () => {
   const itens = [
     {
       video:
-        "https://gallery.dditscdn.com/public/16/c89ee993f5b58d1f2a0fea915290ba1b.mp4",
-      usuario: "Valary Rouger",
+        "https://gallery0.dditscdn.com/9fc9731a64b517c9ba87dae9012515d41f/d97333f0c71be38a1ac4ee7a30f78450.mp4",
+      usuario: "Erica Boture",
       nome: "Chamada de vídeo e conteúdos",
-      link: "/modelo/rebeca-santos",
+      link: "https://go.perfectpay.com.br/PPU38CQ2QR2",
     },
   ]
 
   // GALERIA MISTA (FOTOS + VIDEOS)
   const midia = [
     {
-      tipo: "video",
-      src: "https://gallery.dditscdn.com/public/12/6f6e64f5d96d2cc1460027d86bbfdbeb.mp4",
+      tipo: "foto",
+      src: "https://gallery.dditscdn.com/public/15/7d83ffc1570b08d808d68498c0384f3f.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/1c/cb4343b94782a631f7c8da4fd358fb15.jpg",
+      src: "https://gallery.dditscdn.com/public/14/843e4b2194fb52fbd464d735aa67a3cf.jpg",
     },
     {
       tipo: "foto",
-      src: "https://img.dditscdn.com/ff268cab8d9fbae1ed7506f97496274f15/58bc4d4580e29e5b1523412efd454a28_glamour_1024x576.jpg?cno=763c",
+      src: "https://img.dditscdn.com/ff268cab8d9fbae1ed7506f97496274f1c/cea64d4ee720c2f343c3458410739713_glamour_1024x576.jpg?cno=d98f",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/18/534b2554524d4bc22dab2857e71623b5.jpg",
+      src: "https://gallery.dditscdn.com/public/1c/07ae973bdb26ea884ad7a4592f353acb.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/19/54ac4735e25143ace73d8712b7c9f9b1.jpg",
+      src: "https://gallery.dditscdn.com/public/15/c51788a205ae9b21af5c13c2dea1eb03.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/16/295d36501f33d407894c1bb7b729c4a1.jpg",
-    },
-    {
-      tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/1d/9ae33ffbf3a4df2b30b806e3402962bb.jpg",
-    },
-
-    {
-      tipo: "video",
-      src: "https://gallery.dditscdn.com/public/12/27bb2b2448c6f8aa5b0daa8b625efc98.mp4",
+      src: "https://gallery.dditscdn.com/public/19/9709d3b159619445eb90cdc675dc95f3.jpg",
     },
 
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/1f/d342ecec8091ade61712d1e96c573f35.jpg",
+      src: "https://gallery.dditscdn.com/public/1a/059b40730a9504d0281503405c61b5f9.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/17/cc359621000becd465b36dab8690946d.jpg",
+      src: "https://gallery.dditscdn.com/public/1f/084f17ad33cc3be0f11e7c31fbbc26f1.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/15/176732b57aa46301485850734c582c04.jpg",
+      src: "https://gallery.dditscdn.com/public/1e/3d94e94418b153a6dfbc04200051f266.jpg",
     },
     {
       tipo: "foto",
-      src: "https://gallery.dditscdn.com/public/1d/889d08879145c995745d858a533a7356.jpg",
+      src: "https://gallery.dditscdn.com/public/1a/59ae24d2047bcf05f4f4228949dd0755.jpg",
     },
   ]
 
@@ -171,7 +162,7 @@ const ValaryRouge = () => {
       <Card className="mb-10 mt-5 w-[360px] rounded-xl bg-zinc-900/70 p-4 text-center shadow-lg md:w-[430px] lg:w-[480px]">
         <CardContent>
           <h2 className="mb-4 text-lg font-semibold text-white">
-            Algumas Amostra
+            Amostra Grátis
           </h2>
 
           <div className="grid grid-cols-2 gap-3">
@@ -211,4 +202,4 @@ const ValaryRouge = () => {
   )
 }
 
-export default ValaryRouge
+export default CassandraOliver

@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image"
+
 import Header from "./_components/header"
 import Modelo from "./_components/modelo"
 import Carroceloferta from "./_components/carroceloferta"
@@ -15,6 +15,7 @@ const Home = () => {
       <Header />
 
       {/* DIV BANNER 1 */}
+      {/* BANNER PRINCIPAL 
       <div className="relative mt-1 h-[600px] w-full overflow-hidden rounded-t-2xl">
         <Image
           alt="bannerhot"
@@ -23,29 +24,12 @@ const Home = () => {
           className="object-cover"
         />
       </div>
+      */}
 
       {/* RESTO DO CONTEÚDO - Banners */}
       <div className="min-h-screen bg-black p-4">
-        <div className="relative mx-auto h-[150px] w-[300px] overflow-hidden rounded-t-2xl">
-          <Image
-            alt="bannerhot"
-            src="https://hotclube.s3.sa-east-1.amazonaws.com/bannerhot2.png"
-            fill
-            className="object-cover"
-          />
-        </div>
-
-        <div className="relative mx-auto mt-2 h-[150px] w-[300px] overflow-hidden rounded-t-2xl">
-          <Image
-            alt="bannerhot"
-            src="https://hotclube.s3.sa-east-1.amazonaws.com/bannerhot3.png"
-            fill
-            className="object-cover"
-          />
-        </div>
-
         {/* DIV DESCRIÇÃO*/}
-        <h2 className="mt-6 text-clip font-bold uppercase text-gray-400">
+        <h2 className="text-clip font-bold uppercase text-gray-400">
           Destaque do mês
         </h2>
 

@@ -7,28 +7,32 @@ import Link from "next/link"
 const Carrocelvideo = () => {
   const itens = [
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo22.mp4",
-      usuario: "Rebeca Santos",
+      video:
+        "https://gallery.dditscdn.com/public/10/1270a4f37363b530007e9d623280d4df.mp4",
+      usuario: "Hellen Freitas",
       nome: "Chamada de vídeo",
-      link: "/modelo/rebeca-santos",
+      link: "/modelo/hellen-freitas",
     },
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/video11.mp4",
-      usuario: "Ana Clara",
+      video:
+        "https://gallery.dditscdn.com/public/11/dce09bb7177d8f8b27d1e0a4e3132acd.mp4",
+      usuario: "Erica Boture",
       nome: "Chamada de vídeo",
-      link: "/modelos/ana-clara",
+      link: "/modelo/erica-boture",
     },
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo33.mp4",
-      usuario: "Lara Silva",
+      video:
+        "https://gallery0.dditscdn.com/9fc9731a64b517c9ba87dae9012515d41c/863c1e8e237d6166e8c3a0954f44cdae.mp4",
+      usuario: "Chistinha cena",
       nome: "Chamada de vídeo",
-      link: "/modelos/lara-silva",
+      link: "/modelo/christina-cena",
     },
     {
-      video: "https://hotclube.s3.sa-east-1.amazonaws.com/videoo44.mp4",
-      usuario: "Maria Eduarda",
+      video:
+        "https://gallery.dditscdn.com/public/11/979f6a782adbd715b0cf858cefdb3fee.mp4",
+      usuario: "Cassandra Oliver",
       nome: "Chamada de vídeo",
-      link: "/modelos/maria-eduarda",
+      link: "/modelo/cassandra-oliver",
     },
   ]
 

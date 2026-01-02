@@ -27,7 +27,7 @@ const Modelo = () => {
             <Avatar className="-ml-2 h-10 w-10">
               <Image
                 alt="perfil1"
-                src="https://gallery.dditscdn.com/public/14/484327bbb820f3927c39aeaea8525c6a.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/afcasf.jpg"
                 fill
                 className="object-cover"
               />
@@ -36,11 +36,11 @@ const Modelo = () => {
             {/* Nome e título em coluna */}
             <div className="flex flex-col leading-tight">
               <div className="flex items-center gap-1">
-                <p className="text-sm font-thin">Stephane Giraldo</p>
+                <p className="text-sm font-thin">Juliana Sousa </p>
                 <BadgeCheckIcon size={16} className="text-blue-500" />
               </div>
               <h1 className="text-nowrap text-[13px] font-extralight text-gray-400">
-                @Stephanegiraldo
+                @jusousa
               </h1>
             </div>
           </div>
@@ -71,7 +71,7 @@ const Modelo = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil1"
-                src="https://gallery.dditscdn.com/public/16/a88da23051888fc2b18220288e71e610.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/fasdadfad.png"
                 fill
                 className="object-cover object-top"
               />
@@ -82,7 +82,7 @@ const Modelo = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil2"
-                src="https://gallery.dditscdn.com/public/13/35f0047a14572d4e7ce58f37c6acf739.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/fasdadfad+(1).png"
                 fill
                 className="object-cover object-top"
               />
@@ -93,7 +93,7 @@ const Modelo = () => {
             <div className="relative h-full w-full">
               <Image
                 alt="perfil3"
-                src="https://gallery.dditscdn.com/public/19/759e48260c8dcba1b7003b875e37585c.jpg"
+                src="https://hotclube.s3.sa-east-1.amazonaws.com/fasdadfad+(2).png"
                 fill
                 className="object-cover object-top"
               />
@@ -145,7 +145,7 @@ const Modelo = () => {
       </div>
 
       <div className="mt-5 flex justify-center">
-        <Link href="/modelo/stephane-giraldo">
+        <Link href="/modelo/juliana-sousa">
           <Button
             variant="outline"
             className="flex items-center gap-2 border-gray-700 bg-black/40 text-white"
